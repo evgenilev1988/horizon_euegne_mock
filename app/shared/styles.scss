@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+$inter-font-familty: inter;
+$circular-font-familty: Montserrat; // Instead of Circular on the website (https://sequence.build/)
+
+
+a{
+    text-decoration: none;
+    color: rgba(222,222,222);
+}
+
+.button:hover, a:hover {
+    opacity: .65;
+}
+
+.button, a {
+    transition: opacity .5s;
+}
+
+.button:hover,a:hover{
+    cursor: pointer;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid;
+}

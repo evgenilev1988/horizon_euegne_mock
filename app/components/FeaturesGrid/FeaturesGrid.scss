@@ -1,0 +1,23 @@
+.full-width-grid{
+    margin-left: 5%;
+    margin-right: 5%;
+    @media (min-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 78rem;
+    }
+}
+
+    .grid-container{
+        margin: 0 auto;
+        padding: 0 15px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 315px;
+        grid-gap: 1rem;
+        @media (min-width: 1024px) {
+            grid-template-columns: 280px;
+            grid-template-rows: 175px;
+        }
+    }
+

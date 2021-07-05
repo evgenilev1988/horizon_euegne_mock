@@ -1,0 +1,25 @@
+@import '../../shared/styles.scss';
+
+.link-item{
+    font-size: 21px;
+    color: rgba(222,222,222);
+    
+    margin-right: 16px;
+    font-family: $inter-font-familty;
+    @media (min-width: 811px) {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+    
+}
+
+.link-item sup {
+    font-size: 10px;
+    font-style: italic;
+}
+
+
+.link-item[disabled]{
+    opacity: .65;
+    pointer-events: none;
+}

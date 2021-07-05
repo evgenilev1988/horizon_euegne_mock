@@ -1,0 +1,10 @@
+.navigator-links{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    align-content: center;
+
+    &.isMobile{
+      grid-template-columns: auto;
+    }
+  }
